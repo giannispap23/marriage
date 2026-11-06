@@ -1,0 +1,76 @@
+{
+  "_comment": "Single source of truth for the invitation. Edit this file, then run: python3 build.py   Any value starting with TODO is still missing.",
+
+  "site": {
+    "url": "https://giannispap23.github.io/marriage/",
+    "asset_version": "1",
+    "theme_color": "#566e55",
+    "monogram": "Γ & Α"
+  },
+
+  "groom": {
+    "name": "Γιάννης",
+    "genitive": "Γιάννη",
+    "phone": "TODO: +3069XXXXXXXX"
+  },
+  "bride": {
+    "name": "Αικατερίνη",
+    "genitive": "Αικατερίνης",
+    "phone": "TODO: +3069XXXXXXXX"
+  },
+
+  "wedding": {
+    "_comment": "date = YYYY-MM-DD, time = HH:MM (24h). Timezone is used for the countdown.",
+    "date": "TODO: YYYY-MM-DD",
+    "time": "TODO: HH:MM",
+    "timezone": "Europe/Athens"
+  },
+
+  "ceremony": {
+    "_comment": "venue_phrase is the full Greek phrase used in sentences (e.g. 'στον Ιερό Ναό Αγίου Δημητρίου Θεσσαλονίκης'). Leave maps_url empty to auto-generate a Google Maps search from venue + place.",
+    "venue": "TODO: Ιερός Ναός …",
+    "place": "TODO: περιοχή ναού",
+    "venue_phrase": "TODO: στον Ιερό Ναό … (περιοχή σε γενική)",
+    "maps_url": ""
+  },
+
+  "reception": {
+    "time_label": "Ακολουθεί",
+    "description": "Γεύμα & Χορός",
+    "venue": "TODO: όνομα κτήματος / αίθουσας",
+    "place": "TODO: περιοχή",
+    "maps_url": ""
+  },
+
+  "families": [
+    "TODO: π.χ. Αντωνίου & Ελένης Επώνυμο",
+    "TODO: π.χ. Γρηγορίου & Αικατερίνης Επώνυμο"
+  ],
+  "koumbaroi": [
+    "TODO: π.χ. Αλέξανδρος & Μαρία Επώνυμο"
+  ],
+
+  "rsvp": {
+    "_comment": "Last day to RSVP, YYYY-MM-DD.",
+    "deadline": "TODO: YYYY-MM-DD"
+  },
+
+  "gifts": [
+    { "label": "TODO: Τράπεζα", "type": "IBAN", "value": "TODO: GRxxxxxxxxxxxxxxxxxxxxxxxxx" },
+    { "label": "IRIS Payments", "type": "IRIS", "value": "TODO: 69XXXXXXXX" }
+  ],
+
+  "google": {
+    "_comment": "sheet_id: the long id in the Google Sheet URL. apps_script_url: the /exec URL of the deployed Apps Script web app.",
+    "sheet_id": "TODO",
+    "apps_script_url": "TODO"
+  },
+
+  "cloudinary": {
+    "_comment": "Guest photo uploads. Needs an unsigned upload preset in the couple's own Cloudinary account.",
+    "cloud_name": "TODO",
+    "upload_preset": "TODO"
+  },
+
+  "music": "beautiful-in-white.mp3"
+}
